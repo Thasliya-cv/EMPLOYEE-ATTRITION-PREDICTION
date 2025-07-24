@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../static/employeee.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    backdrop-filter: blur(5px);
+}
+
+ 
+h1 {
+    text-align: center;
+    background-color: #0066cc;
+    color: rgba(250, 249, 249, 1);
+    font-size: 2.9em;
+    padding: 20px 0;
+    margin: 30px 0;
+    border-radius: 0 0 12px 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,6.0);
+    
+}
+
+
+h3 {
+  background-color: rgba(0, 128, 128, 0.9); 
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+  color: white;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.back-link {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007BFF;  /* Button color */
+    color: white;
+    text-decoration: underline;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    text-align: center;
+}
+

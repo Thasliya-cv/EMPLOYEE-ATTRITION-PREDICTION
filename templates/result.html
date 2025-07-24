@@ -1,0 +1,18 @@
+<head>
+    <title>PREDICTION RESULT</title>
+    <link rel="stylesheet" href="../static/style1.css">
+</head>
+
+<body>
+    <h1>EMPLOYEE ATTRITION PREDICTION RESULT</h1>
+
+
+    {% if prediction_result==0 %}
+        <h3>THE EMPLOYEE IS LIKELY TO <strong><u style="color:rgba(251, 82, 90, 1);"></ustyle>LEAVE</u></strong> THE COMPANY</h3>
+        
+    {% elif prediction_result==1 %}
+        <h3>THE EMPLOYEE IS LIKELY TO <strong><u  style="color:rgba(28, 241, 92, 1);">STAY</u></strong> WITH THE COMPANY</h3>
+    {% endif %}
+
+    <a href="/" class="back-link">Back to Homepage ⬅</a>
+</body>
