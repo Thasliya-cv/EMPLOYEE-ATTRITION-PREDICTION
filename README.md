@@ -51,9 +51,17 @@ Used a publicly available HR dataset with features such as:
 
 # 📁 Project Structure
 
-**├── app.py** # Flask application
-**├── model.pkl** # Trained XGBoost model
-**├── templates/** # HTML files
-**│ └── index.html**
-**├── static/** # CSS files (if any)
-**└── requirements.txt** # Python dependencies
+- ├── app.py                # Main Flask application script
+- ├── model.pkl             # Trained machine learning model (XGBoost)
+- ├── requirements.txt      # List of dependencies to install
+- ├── templates/            # Folder for HTML templates
+- │   ├── index.html        # Front page with employee input form
+- │   └── result.html       # Page to display prediction result
+- ├── static/               # Folder for static assets like CSS
+- │   ├── style.css         # Main stylesheet for UI
+- │   └── style1.css        # result styling
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
